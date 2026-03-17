@@ -50,12 +50,14 @@ button:hover {
 /* botões depois do jumpscare */
 .botoes {
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
     width: 100%;
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    flex-direction: column; /* ESSENCIAL */
+    align-items: center;
+    gap: 15px;
 }
+
 
 .btn {
     padding: 15px 30px;
